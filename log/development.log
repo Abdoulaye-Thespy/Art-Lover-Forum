@@ -1625,3 +1625,1680 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.5ms | Allocations: 5155)
 
 
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:02:58 +0100
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 5414)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1306ms (Views: 1253.8ms | ActiveRecord: 3.7ms | Allocations: 194040)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:03:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1090)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.6ms | Allocations: 13392)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:05:30 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1079)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.4ms | Allocations: 7851)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:08:59 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 28ms (Views: 25.0ms | ActiveRecord: 0.8ms | Allocations: 7871)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:19:54 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1152)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 1.1ms | Allocations: 7966)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:21:00 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 877ms (Views: 875.4ms | ActiveRecord: 0.6ms | Allocations: 130703)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:21:28 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 887ms (Views: 886.0ms | ActiveRecord: 0.5ms | Allocations: 130678)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:22:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 868ms (Views: 866.8ms | ActiveRecord: 0.4ms | Allocations: 131528)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:23:04 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 884ms (Views: 883.0ms | ActiveRecord: 0.5ms | Allocations: 131113)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:23:54 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 879ms (Views: 877.4ms | ActiveRecord: 0.6ms | Allocations: 131168)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:24:03 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.5ms | Allocations: 6654)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:24:59 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 872ms (Views: 869.6ms | ActiveRecord: 0.7ms | Allocations: 130682)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:25:27 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 845ms (Views: 843.0ms | ActiveRecord: 0.8ms | Allocations: 131120)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:26:00 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 896ms (Views: 895.4ms | ActiveRecord: 0.5ms | Allocations: 131531)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:26:12 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 874ms (Views: 873.5ms | ActiveRecord: 0.4ms | Allocations: 130696)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:27:36 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1079)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 0.6ms | Allocations: 7862)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:27:45 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 7860)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:29:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.7ms | Allocations: 7851)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:29:58 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.4ms | Allocations: 7852)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:30:10 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.4ms | Allocations: 7847)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:31:10 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 43ms (Views: 39.3ms | ActiveRecord: 0.8ms | Allocations: 7848)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:31:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 1.1ms | Allocations: 6629)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:31:32 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1077)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.5ms | Allocations: 7863)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:32:11 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.4ms | Allocations: 7851)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:32:41 +0100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 5414)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 216ms (Views: 204.1ms | ActiveRecord: 3.1ms | Allocations: 26933)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:33:05 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1086)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.5ms | Allocations: 7887)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:33:55 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.5ms | Allocations: 7855)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:34:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.6ms | Allocations: 7847)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:35:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.4ms | Allocations: 7868)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:36:08 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.4ms | Allocations: 7854)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:39:47 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 29ms (Views: 24.8ms | ActiveRecord: 0.6ms | Allocations: 7857)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:41:27 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 1310ms (Views: 1309.2ms | ActiveRecord: 0.5ms | Allocations: 131749)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:41:44 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 922ms (Views: 920.9ms | ActiveRecord: 0.5ms | Allocations: 131192)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:43:32 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 900ms (Views: 898.6ms | ActiveRecord: 0.5ms | Allocations: 131180)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:43:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 916ms (Views: 915.1ms | ActiveRecord: 0.4ms | Allocations: 130755)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:44:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 896ms (Views: 895.1ms | ActiveRecord: 0.4ms | Allocations: 131180)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:44:38 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 860ms (Views: 858.6ms | ActiveRecord: 0.4ms | Allocations: 131604)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:45:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 852ms (Views: 851.1ms | ActiveRecord: 0.4ms | Allocations: 132042)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:46:12 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 872ms (Views: 871.3ms | ActiveRecord: 0.4ms | Allocations: 132037)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:46:27 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 890ms (Views: 887.5ms | ActiveRecord: 0.9ms | Allocations: 130760)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:46:43 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 895ms (Views: 893.7ms | ActiveRecord: 0.4ms | Allocations: 131964)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:46:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 861ms (Views: 859.6ms | ActiveRecord: 0.5ms | Allocations: 130753)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:47:04 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 928ms (Views: 927.0ms | ActiveRecord: 0.4ms | Allocations: 131193)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:48:26 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 832ms (Views: 830.2ms | ActiveRecord: 0.7ms | Allocations: 131157)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:52:44 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 33ms (Views: 30.6ms | ActiveRecord: 0.7ms | Allocations: 7868)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:53:43 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 826)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 858ms (Views: 857.1ms | ActiveRecord: 0.4ms | Allocations: 130766)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:54:22 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 897ms (Views: 895.8ms | ActiveRecord: 0.4ms | Allocations: 131217)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:55:25 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 890ms (Views: 889.6ms | ActiveRecord: 0.4ms | Allocations: 131197)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:55:36 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 817)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 936ms (Views: 934.8ms | ActiveRecord: 0.5ms | Allocations: 131655)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 11:58:40 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 0.7ms | Allocations: 7879)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-07-30 11:58:46 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 141.9ms | Allocations: 5990)
+  Rendered users/new.html.erb within layouts/application (Duration: 144.7ms | Allocations: 6380)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 189ms (Views: 186.3ms | ActiveRecord: 0.3ms | Allocations: 12233)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 11:59:12 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 450)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.1ms | Allocations: 6791)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 11:59:37 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 919ms (Views: 917.9ms | ActiveRecord: 0.2ms | Allocations: 135095)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2020-07-30 11:59:51 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_form.html.erb (Duration: 0.7ms | Allocations: 376)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 485)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.3ms | Allocations: 6383)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 11:59:58 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.3ms | Allocations: 6081)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 12:00:02 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"sSFrp9olt2RgCqvH1YopRY5rwxhPw3F/yAtCjBeTjjNtHdar1Hbowv2w2kcuIqT5XuYBW0bfUBWjfFTEalwzfA==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms | Allocations: 1065)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:00:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.erb:13
+  Rendered users/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 824)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.7ms | Allocations: 6723)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:05:31 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 141)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms | Allocations: 7033)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:06:17 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.2ms | Allocations: 7024)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:06:38 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms | Allocations: 7027)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:10:56 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 1.0ms | Allocations: 89)
+  Rendered users/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 454)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.2ms | Allocations: 7335)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:12:00 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.2ms | Allocations: 86)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms | Allocations: 7331)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:15:13 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.1ms | Allocations: 7338)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:16:25 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 856ms (Views: 854.7ms | ActiveRecord: 0.2ms | Allocations: 135749)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:16:29 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.1ms | Allocations: 6125)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:16:40 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.3ms | Allocations: 96)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms | Allocations: 7442)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:17:23 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 898ms (Views: 897.5ms | ActiveRecord: 0.2ms | Allocations: 137753)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:17:45 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 912ms (Views: 911.5ms | ActiveRecord: 0.2ms | Allocations: 137291)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:18:47 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.4ms | Allocations: 96)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 462)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.2ms | Allocations: 7444)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:25:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.3ms | Allocations: 100)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 460)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 1.0ms | Allocations: 7540)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:26:43 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.3ms | Allocations: 100)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 460)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms | Allocations: 7435)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:27:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.5ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 475)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.3ms | Allocations: 7449)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:28:32 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+Completed 500 Internal Server Error in 548ms (ActiveRecord: 0.0ms | Allocations: 73106)
+
+
+  
+ActionView::Template::Error (Error: property "align-center" must be followed by a ':'
+        on line 6:3 of app/assets/stylesheets/users.scss
+>>   align-center
+
+   --^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/users.scss:6
+app/views/layouts/application.html.erb:9
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:28:45 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 908ms (Views: 907.0ms | ActiveRecord: 0.2ms | Allocations: 138241)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:32:37 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.2ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 481)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 975ms (Views: 973.3ms | ActiveRecord: 0.3ms | Allocations: 139140)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:35:04 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.4ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 481)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 954ms (Views: 952.9ms | ActiveRecord: 0.2ms | Allocations: 140019)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:35:39 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 882ms (Views: 881.6ms | ActiveRecord: 0.2ms | Allocations: 137764)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:36:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 894ms (Views: 892.9ms | ActiveRecord: 0.2ms | Allocations: 138133)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:36:20 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 940ms (Views: 938.9ms | ActiveRecord: 0.2ms | Allocations: 138139)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:36:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 923ms (Views: 922.7ms | ActiveRecord: 0.2ms | Allocations: 137718)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:37:51 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 905ms (Views: 904.3ms | ActiveRecord: 0.2ms | Allocations: 138206)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:38:21 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 930ms (Views: 929.2ms | ActiveRecord: 0.2ms | Allocations: 137305)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:38:33 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 952ms (Views: 951.3ms | ActiveRecord: 0.2ms | Allocations: 137716)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:38:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 904ms (Views: 903.2ms | ActiveRecord: 0.2ms | Allocations: 138131)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:39:03 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 949ms (Views: 947.9ms | ActiveRecord: 0.2ms | Allocations: 138581)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:39:47 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.4ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 483)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms | Allocations: 7465)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:40:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 941ms (Views: 938.8ms | ActiveRecord: 0.2ms | Allocations: 137695)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:40:33 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.3ms | Allocations: 6555)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:40:50 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 903ms (Views: 901.9ms | ActiveRecord: 0.2ms | Allocations: 139516)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:41:17 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 896ms (Views: 895.5ms | ActiveRecord: 0.2ms | Allocations: 138574)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:42:17 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 867ms (Views: 866.6ms | ActiveRecord: 0.3ms | Allocations: 138519)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:47:38 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 979ms (Views: 977.8ms | ActiveRecord: 0.2ms | Allocations: 138109)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:48:19 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 896ms (Views: 895.4ms | ActiveRecord: 0.2ms | Allocations: 138185)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:48:31 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 899ms (Views: 898.3ms | ActiveRecord: 0.2ms | Allocations: 138609)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:48:38 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 917ms (Views: 915.8ms | ActiveRecord: 0.2ms | Allocations: 138138)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:48:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 932ms (Views: 930.9ms | ActiveRecord: 0.2ms | Allocations: 138108)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:49:08 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 893ms (Views: 892.2ms | ActiveRecord: 0.2ms | Allocations: 138178)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:49:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 891ms (Views: 889.9ms | ActiveRecord: 0.2ms | Allocations: 137693)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:52:08 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.2ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 483)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 882ms (Views: 880.8ms | ActiveRecord: 0.2ms | Allocations: 140377)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:52:26 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 958ms (Views: 957.5ms | ActiveRecord: 0.2ms | Allocations: 137773)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:52:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 1007ms (Views: 1006.0ms | ActiveRecord: 0.3ms | Allocations: 138187)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:55:28 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 920ms (Views: 919.5ms | ActiveRecord: 0.2ms | Allocations: 138576)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:56:09 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 999ms (Views: 998.7ms | ActiveRecord: 0.2ms | Allocations: 139462)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:56:40 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 938ms (Views: 936.9ms | ActiveRecord: 0.2ms | Allocations: 137739)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:56:58 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 904ms (Views: 903.0ms | ActiveRecord: 0.2ms | Allocations: 139907)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:58:12 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered users/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 97)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 952ms (Views: 951.1ms | ActiveRecord: 0.2ms | Allocations: 139041)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 12:58:24 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/_menu.html.erb (Duration: 22.5ms | Allocations: 115)
+  Rendered users/index.html.erb within layouts/application (Duration: 25.6ms | Allocations: 481)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.2ms | Allocations: 7470)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:08:37 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 2.8ms | Allocations: 955)
+  Rendered users/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1315)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 132ms (Views: 130.6ms | ActiveRecord: 0.5ms | Allocations: 8211)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:08:51 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.8ms | Allocations: 840)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.3ms | Allocations: 8088)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:08:55 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RMzSsOvM4gpjSUN/8PpsuySU9437Qm2jSPl7i4BWKINW94cyLImDIw4+sToEcdp6P+BukivlHVZxcRZpaWuWiA==", "id"=>"3"}
+Completed 500 Internal Server Error in 208ms (ActiveRecord: 0.0ms | Allocations: 114824)
+
+
+  
+NameError (undefined local variable or method `root_url' for #<SessionsController:0x00007f1524016f18>):
+  
+app/controllers/sessions_controller.rb:18:in `destroy'
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:10:08 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RMzSsOvM4gpjSUN/8PpsuySU9437Qm2jSPl7i4BWKINW94cyLImDIw4+sToEcdp6P+BukivlHVZxcRZpaWuWiA==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 360)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:10:08 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 2.0ms | Allocations: 7982)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:10:15 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.4ms | Allocations: 6319)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:10:25 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"BcudWtF7xSyT3T6HcZ2dT37qBx9Dgg3y6ICzOFgj/pNG6Lz6FSaJwOL02YBSYoaANMvpMtd2dLg+tBLj+IM34Q==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 10ms (ActiveRecord: 2.8ms | Allocations: 4470)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:10:25 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 2.3ms | Allocations: 708)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.3ms | Allocations: 6929)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:10:41 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"um3GZSmwP/lCkGoy0yseoEDCucj26T6VO1rhWhjrcCf5TufF7e1zFTO5jTXw1AVvCuNX5WIdR9/tbkCBuEu5VQ==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:10:41 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 6333)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:11:07 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0ao6lVKGo9KXmgA73MdCUEhoG+G2R0vjaA9rNLR72dHFYrSzOpRoIF3wEedHthQktlEYh13/ZrIN6ZYn4n1AHw==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 940)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:11:07 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.4ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.2ms | Allocations: 6709)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:11:11 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hMsyfvPK4zuWrMbZGusS2u3x5nD0RusZjOGxyzZHvUKQA7xYm9goyVzG1wWBmkSuE8jlFh/+xkjpB0zYYEEkjA==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 349)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:11:11 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 6329)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:11:19 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"5rxH8KLGJAqQ/xhnxZ+YjulJAop1jHmq3uLUTzpyDWxyWmevRpZOOIPccynnKFmdDQT42s0UwcozwAxUhUNOXg==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 942)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:11:19 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.2ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 6705)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:11:55 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZPxnvJwR4T5nVPXwJWDSrHbphyYQkG5BrpW2iCKsQsHwGkfjeEGLDHR3nr4H1xO/kqR9dqgI1iFDt26TnZ0B8w==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:11:55 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms | Allocations: 6328)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:12:38 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 437)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.3ms | Allocations: 7541)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:12:40 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4pcag7XJPfZiM/dwkqHiTo+CmY4nU5wsS/vGnUYRo1C8g/AL7hb3245weL8cdmN77CkBWQ5bOUJKyV7WsW6/+w==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms | Allocations: 948)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:12:40 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.6ms | Allocations: 840)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.3ms | Allocations: 7699)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:12:43 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"H7jaatA6BBCuBdcn/vK7h1C8Us3uyt4W8SdaC2jc6T1BrDDii+XOPUJGWOhwJTqyMxfKGsfCe3jwFcJAn6P1lg==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 345)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:12:43 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 222)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.1ms | Allocations: 6343)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:18:34 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 207)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 943ms (Views: 942.4ms | ActiveRecord: 0.2ms | Allocations: 133350)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:19:26 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"vl2s5cqAaMgAvtKCS7pulzxyOTGJ6JyND0uMbbjZt5E8oQ30qqBFfq+QpMMTn7hwMGGV3/mF7MjxoR/njMltaw==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms | Allocations: 943)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:19:26 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.9ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.2ms | Allocations: 7024)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 13:19:33 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/C0uqtP1V9WKEQRGh95KZnOsMB9KjwDc2rNsitM+Ylx+0Y+7s9V6YyU/cgff+5yBf7+c8TricJkkWf8A5y64pg==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 13:19:33 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.1ms | Allocations: 6143)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 13:19:42 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"+uZI3m2ZS1F9Px82LLWcxP4FWl55g4EVayFMvCm7JVY2LvprqTTgom59CRR83nQoxnhMLGpfn5Puq9k+79LZwA==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 942)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:19:42 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.3ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 793)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.2ms | Allocations: 6511)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 13:22:40 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 2.0ms | Allocations: 840)
+  Rendered users/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1210)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 994ms (Views: 992.7ms | ActiveRecord: 0.2ms | Allocations: 133756)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:08:09 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.6ms | Allocations: 808)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 1255ms (Views: 1253.8ms | ActiveRecord: 0.3ms | Allocations: 135819)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:08:23 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 181.0ms | Allocations: 841)
+  Rendered users/index.html.erb within layouts/application (Duration: 182.3ms | Allocations: 1212)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 210ms (Views: 208.4ms | ActiveRecord: 0.5ms | Allocations: 8011)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:08:50 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.1ms | Allocations: 706)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 798)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 1036ms (Views: 1035.0ms | ActiveRecord: 0.3ms | Allocations: 137718)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:09:04 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 3.2ms | Allocations: 701)
+  Rendered users/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.7ms | Allocations: 6688)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:09:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.5ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 791)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 928ms (Views: 926.8ms | ActiveRecord: 0.2ms | Allocations: 140527)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:10:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.6ms | Allocations: 701)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 792)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 949ms (Views: 947.9ms | ActiveRecord: 0.3ms | Allocations: 139194)
+
+
+Started DELETE "/sessions/3" for 127.0.0.1 at 2020-07-30 14:11:04 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IG5m24wSAzoSFDR8mVaEYDIjkYVVBughF6x7XiR3k9zsptRuSL+oyQFWIl7JPWyMCl6H90ba9qeSJu7c4h5vSg==", "id"=>"3"}
+Redirected to http://localhost:3000/login/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 355)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2020-07-30 14:11:04 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 447)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.2ms | Allocations: 7149)
+
+
+Started POST "/login" for 127.0.0.1 at 2020-07-30 14:11:12 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pZWFWZzwpWE7y2qM/Sj1dk+L7Edq9yjqZdga5r5JpRKBirf/vadnlzphiwPHyzWprubZVSiYAbqYuD3caEpfQg==", "username"=>"abdoulaye-theLinuxer", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://localhost:3000/users
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 942)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:11:12 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.9ms | Allocations: 706)
+  Rendered users/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 800)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.3ms | Allocations: 6712)
+
+
+Started GET "/users" for 127.0.0.1 at 2020-07-30 14:12:25 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+  Rendered users/_menu.html.erb (Duration: 1.1ms | Allocations: 700)
+  Rendered users/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 791)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "abdoulaye-theLinuxer"], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:5:in `current_user'
+Completed 200 OK in 967ms (Views: 965.6ms | ActiveRecord: 0.2ms | Allocations: 138359)
+
+
