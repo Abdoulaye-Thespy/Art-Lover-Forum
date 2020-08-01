@@ -36,7 +36,6 @@ html, body {
 
 .first_part1 {
   background-color: #000033;
-  height: 100vh;
 }
 
 .part3,
@@ -60,11 +59,23 @@ html, body {
   padding: 0.6rem;
 }
 
-.hint_area,
-.hints-areas {
+.hint_area {
   background-color: #fff;
-  padding: 2rem;
+  padding: 1rem;
   margin: 2rem;
   border-radius: 5px;
   line-height: 50px;
+}
+
+.hints-areas {
+  background-color: #fff;
+  padding: .2rem;
+  margin: 2px 2rem 2px 2rem;
+  border-radius: 5px;
+}
+
+.p-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }

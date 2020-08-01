@@ -17,7 +17,7 @@
   <% if logged_in? %>
    <div class="columns is-centered">
 <figure class="column image is-128x128">
- <%= image_tag current_user.image.url%>
+ <%= image_tag current_user.image.url, class:'p-image'%>
 </figure>
      <p class="column is-three-quarters uname"><%= current_user.fullname %></p>
    </div>

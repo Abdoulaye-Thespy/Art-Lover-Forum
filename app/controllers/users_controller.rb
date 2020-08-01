@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
     @hint = current_user.hints.build
+    @hints = Hint.all.order("created_at DESC")
   end
 
   # GET /users/1

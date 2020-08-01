@@ -1,12 +1,15 @@
 <body>
+<% @hints.each do |hint| %>
 <div class="hints-areas">
 <div class="columns">
-<figure class="image is-128x128 column">
-  <%= image_tag current_user.image.url%>
+<figure class="image is-128x128 column fig">
+  <%= image_tag hint.user.image.url, class:'p-image'%>
 </figure>
 <div class="column is-four-fifths">
-	Some text
+	<h1 class="title is-6"><%= hint.user.fullname %> </h1>
+	<%= hint.text %>
 </div>
 </div>
 </div>
+<% end %>
 </body>
