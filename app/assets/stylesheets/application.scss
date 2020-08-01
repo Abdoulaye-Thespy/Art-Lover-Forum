@@ -45,7 +45,7 @@ main {
 .third_part span i, 
 .second_part span i {
   font-size: 1.5rem;
-  margin: 0 1.5rem 0 1.5rem;
+  margin: 1.2rem 1rem 0 1.3rem;
 }
  
 .second_part span i {
@@ -53,6 +53,20 @@ main {
 }
 
 nav {
-  height: 4rem;
-  padding-top: 0.7rem;
+  height: 6rem;
+  padding-top: 0.5rem;
+}
+
+
+.first_part img,
+.first_part p {
+ margin: 1rem 0 0 1rem;
+}
+
+.uname {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: .5;
+  justify-content: center;
 }

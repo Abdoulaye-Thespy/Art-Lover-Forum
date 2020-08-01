@@ -1,3 +1,4 @@
+<body>
 <div class="columns line1">
    <div class="column line1-1">
       <p> 182</p>
@@ -26,5 +27,10 @@
 
 <div class="lines">
  <span><i class="fas fa-home"></i></span>
+ <% if logged_in? %>
  <%= link_to 'Logout',  session_path(current_user.id), method: :delete%> 
+ <% end %>
+
 </div>
+
+</body>

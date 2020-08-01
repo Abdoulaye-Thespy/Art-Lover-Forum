@@ -13,11 +13,17 @@
   <body>
 
 <nav class="navbar columns" role="navigation" aria-label="main navigation">
- <% if logged_in? %>
  <div class=" column first_part">
-   rrrrrrrrrrr
+  <% if logged_in? %>
+   <div class="columns is-centered">
+<figure class="column image is-128x128">
+ <%= image_tag current_user.image.url%>
+</figure>
+     <p class="column is-three-quarters uname"><%= current_user.fullname %></p>
+   </div>
+  <% end %>
  </div>
- <% end %>
+
   <div class=" column is-three-fifths second_part">
    <span><i class="fas fa-paint-brush"></i></span>
  </div>

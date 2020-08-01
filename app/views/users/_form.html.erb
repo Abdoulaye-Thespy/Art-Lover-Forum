@@ -10,6 +10,11 @@
   <div>
     <%= label_tag(:fullname, "Enter Your fullname:") %>
     <%= f.text_field :fullname, class:"input is-info", placeholder:"fullname" %>
+    <%= label_tag(:image, "Upload profil Image:") %>
+    <%=f.file_field :image %> <br>
+    <%= label_tag(:image, "Upload Cover Image:") %>
+    <%=f.file_field :coverimage %>
+
   </div>
 
 
