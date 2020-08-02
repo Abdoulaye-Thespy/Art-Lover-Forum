@@ -16,7 +16,7 @@
  <div class=" column first_part">
   <% if logged_in? %>
    <div class="columns is-centered">
-<figure class="column image is-128x128">
+<figure class="column">
  <%= image_tag current_user.image.url, class:'p-image'%>
 </figure>
      <p class="column is-three-quarters uname"><%= current_user.fullname %></p>
@@ -38,5 +38,17 @@
 
 
     <%= yield %>
+
+    
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>ART HINT</strong> by <a href="https://jgthms.com">ABDOULAYE THE SPY</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CMR</a>.
+    </p>
+  </div>
+</footer>
   </body>
 </html>

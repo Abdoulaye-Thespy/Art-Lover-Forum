@@ -11,7 +11,9 @@
 </div>
  
 <div class="line2">
- <span><i class="fas fa-home"></i>HOME</span>
+ <span><i class="fas fa-home"></i>
+ <%= link_to 'HOME',  users_path, class: 'has-text-white-ter title is-6'%> 
+ </span>
 </div>
 <div class="lines">
  <span><i class="fas fa-home"></i></span>CONNECT	
@@ -22,13 +24,16 @@
 </div>
 
 <div class="lines">
- <span><i class="fas fa-home"></i></span>PROFILE
+ <span><i class="fas fa-home"></i></span>
+ <% if logged_in? %>
+ <%= link_to 'PROFILE',  user_path(current_user.id), class: 'has-text-white-ter title is-6'%> 
+ <% end %>
 </div>
 
 <div class="lines">
  <span><i class="fas fa-home"></i></span>
  <% if logged_in? %>
- <%= link_to 'Logout',  session_path(current_user.id), method: :delete%> 
+ <%= link_to 'Logout',  session_path(current_user.id),class: 'has-text-white-ter title is-6', method: :delete%> 
  <% end %>
 
 </div>

@@ -19,7 +19,6 @@
 @import "bulma";
 
 html, body {
-  height: 100%;
   margin: 0;
 }
 
@@ -71,3 +70,8 @@ nav {
   justify-content: center;
 }
 
+.footer {
+  padding: 10rem;
+  background-color: #e6e6e6;
+  margin-top: -.6rem;
+}

@@ -5,4 +5,9 @@ class User < ApplicationRecord
   validates_attachment_content_type :coverimage, content_type: /\Aimage\/.*\z/
 
   has_many :hints
+  has_many :followers
+  has_many :following, class_name: 'Followers', foreign_key: 'follower_id'
+  	def show_hints
+		hints.all
+	end
 end

@@ -1,4 +1,49 @@
-<p id="notice"><%= notice %></p>
+<body>
+   <div class="columns">
+      <div class=" column first_part1">
+         <%= render 'menu' %>
+      </div>
+      <div class=" column is-three-fifths part2">
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+      <% if logged_in? %>
+         <figure class="">
+          <%= image_tag current_user.coverimage.url, class:'c-image'%>
+      </figure>
+      <% end %>
+         <div class="part3-1">
+            HINTS (ART)
+         </div>
+         <div class="hint_area">
+            <p id="notice"><%= notice %></p>
+            <h1>WRITE A HINTS ABOUT A PIECE OR ART</h1>
+            <% if logged_in? %>
+            <%= form_for(current_user.hints.new, url: user_hints_path(current_user.id)) do |form| %>
+            <div> <%= form.text_field :text, id: :comment_content, class: 'input', placeholder: 'Hint' %> </div>
+            <%= form.submit 'Create and hint', class: 'button is-link' %>
+            <% end %>
+            <% end %>
+        </div>
+         <h1 class="sep" >ALL HINTS/NO COMMENTS</h1>
+         <%= render 'hints'%>
+      </div>
+
+      <div class=" column part3">
+         <div class="columns part3-2">
+            <span class="column is-three-fifths">WHO TO FOLLOW</span>
+            <span class="column"><i class="fas fa-expand-arrows-alt"></i></span>
+         </div>
+
+
+
+         <div class="columns part3-3">
+            <span class="column add"><i class="fas fa-plus-circle"></i></span>
+             <figure class="column fig is-half">
+              <%= image_tag current_user.image.url, class:'h-image'%>
+              <p class="paraph-1"><%= current_user.fullname %></p>
+              <p class="paraph-2"><%= current_user.username %></p>
+          </figure>
+            <span class="column menu"><i class="fas fa-bars"></i></span>
+         </div>
+      </div>
+   </div>
+</body>

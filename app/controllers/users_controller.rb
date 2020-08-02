@@ -4,7 +4,6 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users = User.all
     @hint = current_user.hints.build
     @hints = Hint.all.order("created_at DESC")
   end
@@ -12,6 +11,8 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    user=set_user
+    @hints=user.show_hints.order("created_at DESC")
   end
 
   # GET /users/new
