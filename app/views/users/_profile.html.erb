@@ -1,7 +1,12 @@
-<%= @users.each do |user| %>
-             <figure class="column fig is-half">
-              <%= image_tag user.image.url, class:'h-image'%>
-              <p class="paraph-2"><%= current_user.username %></p>
-          </figure>
-            <p class=" column paraph-1"> <%= user.fullname %> </p>
+<% @users.each do |user| %>
+<div class="flex-container">
+<figure class="item">
+  <%= image_tag user.image.url, class:'h2-image'%>
+</figure>
+<div class="item">
+	<%= link_to user.fullname,  user_path(user.id), class:'title is-6 name-profile plus' %>
+	<h1 class="title is-6 name-profile"> followed by <a href="">The Spy</a></h1>
+
+</div>
+</div>
 <% end %>
