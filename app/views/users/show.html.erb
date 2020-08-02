@@ -36,9 +36,9 @@
 
 
          <div class="columns part3-3">
-            <span class="column add"><i class="fas fa-plus-circle"></i></span>
+           <span class="column add"> <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe,  new_user_follower_path(@user_show.id), class:'plus' %></span>
              <figure class="column fig is-half">
-              <%= image_tag current_user.image.url, class:'h-image'%>
+              <%= image_tag @user_show.image.url, class:'h-image'%>
               <p class="paraph-1"><%= current_user.fullname %></p>
               <p class="paraph-2"><%= current_user.username %></p>
           </figure>

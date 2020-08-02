@@ -1,0 +1,7 @@
+<%= @users.each do |user| %>
+             <figure class="column fig is-half">
+              <%= image_tag user.image.url, class:'h-image'%>
+              <p class="paraph-2"><%= current_user.username %></p>
+          </figure>
+            <p class=" column paraph-1"> <%= user.fullname %> </p>
+<% end %>

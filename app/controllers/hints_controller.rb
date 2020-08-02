@@ -1,6 +1,5 @@
 class HintsController < ApplicationController
 	def new
-		fail
 	end
 
 	 # POST /tweeets
