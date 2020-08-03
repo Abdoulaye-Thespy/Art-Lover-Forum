@@ -16,13 +16,13 @@ ActiveRecord::Schema.define(version: 2020_08_02_105404) do
   enable_extension "plpgsql"
 
   create_table "followers", force: :cascade do |t|
-    t.bigint "user_id"
-    t.bigint "follower_id"
-    t.boolean "confirmed"
+    t.integer "follower_id"
+    t.integer "followed_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["followed_id"], name: "index_followers_on_followed_id"
+    t.index ["follower_id", "followed_id"], name: "index_followers_on_follower_id_and_followed_id", unique: true
     t.index ["follower_id"], name: "index_followers_on_follower_id"
-    t.index ["user_id"], name: "index_followers_on_user_id"
   end
 
   create_table "hints", force: :cascade do |t|
@@ -48,7 +48,5 @@ ActiveRecord::Schema.define(version: 2020_08_02_105404) do
     t.datetime "coverimage_updated_at"
   end
 
-  add_foreign_key "followers", "users"
-  add_foreign_key "followers", "users", column: "follower_id"
   add_foreign_key "hints", "users"
 end

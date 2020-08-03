@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     @user_show=set_user
+    @users=@user_show.followers
     @hints=@user_show.show_hints.order("created_at DESC")
   end
 

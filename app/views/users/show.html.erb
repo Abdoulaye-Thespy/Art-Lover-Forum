@@ -36,7 +36,12 @@
 
 
          <div class="columns part3-3">
+          <% if @user_show != current_user %>
            <span class="column add"> <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe,  new_user_follower_path(@user_show.id), class:'plus' %></span>
+
+           <% else %>
+              <span class="column add"> <%= link_to '<i class="fas fa-backward"></i>'.html_safe,  users_path, class:'plus' %></span> 
+           <% end %>
              <figure class="column fig is-half">
               <%= image_tag @user_show.image.url, class:'h-image'%>
               <p class="paraph-1"><%= current_user.fullname %></p>
@@ -44,6 +49,24 @@
           </figure>
             <span class="column menu"><i class="fas fa-bars"></i></span>
          </div>
+         <div class="columns follow">
+       <div class="column follow-div">
+      <p> 182</p>
+      <p> Hints</p>
+   </div>
+   <div class="column follow-div">
+      <p> 182</p>
+      <p> Following</p>
+   </div>
+   <div class="column follow-div">
+      <p> 182</p>
+      <p> Followers</p>
+   </div>
+</div>
+
+<h1 class="title is-5 fol_by"> FOLLOWED BY</h1>
+
+<%= render 'following' %>
       </div>
    </div>
 </body>
