@@ -1,21 +1,21 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+  before_action :set_user, only: %i[show edit update destroy]
 
   # GET /users
   # GET /users.json
   def index
-    all_user=User.all.order("created_at DESC")
-    @users=User.where.not(id: [[current_user] + current_user.following])
+    all_user = User.all.order('created_at DESC')
+    @users = User.where.not(id: [[current_user] + current_user.following])
     @hint = current_user.hints.build
-    @hints = Hint.all.order("created_at DESC")
+    @hints = Hint.all.order('created_at DESC')
   end
 
   # GET /users/1
   # GET /users/1.json
   def show
-    @user_show=set_user
-    @users=@user_show.followers
-    @hints=@user_show.show_hints.order("created_at DESC")
+    @user_show = set_user
+    @users = @user_show.followers
+    @hints = @user_show.show_hints.order('created_at DESC')
   end
 
   # GET /users/new
@@ -24,8 +24,7 @@ class UsersController < ApplicationController
   end
 
   # GET /users/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /users
   # POST /users.json
@@ -36,7 +35,7 @@ class UsersController < ApplicationController
         format.html { redirect_to new_session_path, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
-        format.html { render :new, notice: 'User name already taken'}
+        format.html { render :new, notice: 'User name already taken' }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
@@ -67,13 +66,14 @@ class UsersController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_user
-      @user = User.find(params[:id])
-    end
 
-    # Only allow a list of trusted parameters through.
-    def user_params
-       params.require(:user).permit(:username, :fullname, :image, :coverimage)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_user
+    @user = User.find(params[:id])
+  end
+
+  # Only allow a list of trusted parameters through.
+  def user_params
+    params.require(:user).permit(:username, :fullname, :image, :coverimage)
+  end
 end

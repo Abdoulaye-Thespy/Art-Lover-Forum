@@ -1,12 +1,11 @@
 class HintsController < ApplicationController
-	def new
-	end
+  def new; end
 
-	 # POST /tweeets
+  # POST /tweeets
   # POST /tweeets.json
   def create
     @hint = current_user.hints.build(hint_params)
-    
+
     respond_to do |format|
       if @hint.save
         format.html { redirect_to users_path, notice: 'Hint was successfully created.' }
@@ -18,11 +17,9 @@ class HintsController < ApplicationController
     end
   end
 
+  private
 
-
-	private
-
-    def hint_params
-      params.require(:hint).permit(:text)
-    end
+  def hint_params
+    params.require(:hint).permit(:text)
+  end
 end
