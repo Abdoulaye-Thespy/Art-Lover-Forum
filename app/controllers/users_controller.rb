@@ -4,8 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    all_user = User.all.order('created_at DESC')
-    @users = User.where.not(id: [[current_user] + current_user.following])
+    @users = User.where.not(id: [[current_user] + current_user.following]).order('created_at DESC')
     @hint = current_user.hints.build
     @hints = Hint.all.order('created_at DESC')
   end
