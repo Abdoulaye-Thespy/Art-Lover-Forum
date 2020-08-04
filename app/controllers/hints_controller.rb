@@ -12,7 +12,7 @@ class HintsController < ApplicationController
         format.html { redirect_to users_path, notice: 'Hint was successfully created.' }
         format.json { render :show, status: :created, location: @tweeet }
       else
-        format.html { render :new }
+        format.html { redirect_to users_path, notice: 'Hint was not created.' }
         format.json { render json: @tweeet.errors, status: :unprocessable_entity }
       end
     end

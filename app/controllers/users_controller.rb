@@ -36,7 +36,7 @@ class UsersController < ApplicationController
         format.html { redirect_to new_session_path, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
-        format.html { render :new }
+        format.html { render :new, notice: 'User name already taken'}
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
