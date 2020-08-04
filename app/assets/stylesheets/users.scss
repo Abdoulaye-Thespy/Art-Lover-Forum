@@ -2,13 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 
 .line1 {
-  align: center;
   color: #fff;
   width: 60%;
 }
@@ -35,7 +35,7 @@ html, body {
 }
 
 .first_part1 {
-  background-color: #000033;
+  background-color: #003;
 }
 
 .part3,
@@ -70,7 +70,7 @@ html, body {
 
 .hints-areas {
   background-color: #fff;
-  padding: .2rem;
+  padding: 0.2rem;
   margin: 2px 2rem 2px 2rem;
   border-radius: 5px;
 }
@@ -81,7 +81,7 @@ html, body {
   object-fit: cover;
 }
 
-.sep{
+.sep {
   margin: 0 2rem 0 2rem;
   background-color: #fff;
   padding: 1rem 0 1rem 1rem;
@@ -99,7 +99,7 @@ html, body {
 }
 
 .item {
-  margin: .2rem;
+  margin: 0.2rem;
 }
 
 .h-image {
@@ -131,7 +131,6 @@ html, body {
 .fig .paraph-2 {
   font-size: 15px;
   font-weight: bold;
-  opaticity: .3;
 }
 
 .plus {
@@ -139,7 +138,7 @@ html, body {
 }
 
 .plus:hover {
- background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
 .h2-image {
@@ -149,7 +148,7 @@ html, body {
 }
 
 .name-profile {
- padding: .4rem;
+  padding: 0.4rem;
 }
 
 .follow p {
@@ -166,10 +165,10 @@ html, body {
 
 .fol_by {
   padding: 1rem;
-  opacity: .5;
+  opacity: 0.5;
   border-bottom: 1px solid #bfbfbf;
 }
 
 .plus-1 {
- font-size: 30px;
+  font-size: 30px;
 }

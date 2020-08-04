@@ -13,12 +13,14 @@
  *= require_tree .
  *= require_self
  */
- /*
+
+/*
  *= require font-awesome
  */
 @import "bulma";
 
-html, body {
+html,
+body {
   margin: 0;
 }
 
@@ -29,7 +31,7 @@ main {
 }
 
 .first_part {
-  background-color: #000033;
+  background-color: #003;
   height: 100%;
 }
 
@@ -41,12 +43,12 @@ main {
   background-color: #0099e6;
 }
 
-.third_part span i, 
+.third_part span i,
 .second_part span i {
   font-size: 1.5rem;
   margin: 1.2rem 1rem 0 1.3rem;
 }
- 
+
 .second_part span i {
   color: #fff;
 }
@@ -56,22 +58,21 @@ nav {
   padding-top: 0.5rem;
 }
 
-
 .first_part img,
 .first_part p {
- margin: 1rem 0 0 1rem;
+  margin: 1rem 0 0 1rem;
 }
 
 .uname {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
-  opacity: .5;
+  opacity: 0.5;
   justify-content: center;
 }
 
 .footer {
   padding: 10rem;
   background-color: #e6e6e6;
-  margin-top: -.6rem;
+  margin-top: -0.6rem;
 }
