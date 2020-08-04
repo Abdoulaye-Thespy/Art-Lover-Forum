@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Click for the Live demo](https://agile-island-86439.herokuapp.com/users/sign_in)
+[Click for the Live demo]()
 
 
 ## Getting Started
@@ -63,7 +63,7 @@ TBA
 
 ## Authors
  [github](https://github.com/Abdoulaye-Thespy)
- 
+
  Njigouh Abdoulaye Razak
 
 ## 🤝 Contributing
