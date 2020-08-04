@@ -51,15 +51,15 @@
          </div>
          <div class="columns follow">
        <div class="column follow-div">
-      <p> 182</p>
+      <p> <%= @user_show.hints.count %></p>
       <p> Hints</p>
    </div>
    <div class="column follow-div">
-      <p> 182</p>
+      <p> <%= @user_show.following.count %></p>
       <p> Following</p>
    </div>
    <div class="column follow-div">
-      <p> 182</p>
+      <p> <%= current_user.followers.count %> </p>
       <p> Followers</p>
    </div>
 </div>

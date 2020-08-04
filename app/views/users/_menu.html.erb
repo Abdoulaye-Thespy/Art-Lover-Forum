@@ -1,11 +1,11 @@
 <body>
 <div class="columns line1">
    <div class="column line1-1">
-      <p> 182</p>
+      <p> <%= current_user.following.count %> </p>
       <p> Following</p>
    </div>
    <div class="column">
-      <p> 182</p>
+      <p> <%= current_user.followers.count %></p>
       <p> Followers</p>
    </div>
 </div>

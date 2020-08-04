@@ -4,7 +4,8 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
-    @users=User.all
+    all_user=User.all.order("created_at DESC")
+    @users=User.where.not(id: [[current_user] + current_user.following])
     @hint = current_user.hints.build
     @hints = Hint.all.order("created_at DESC")
   end
@@ -32,7 +33,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
+        format.html { redirect_to new_session_path, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
         format.html { render :new }

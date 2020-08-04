@@ -4,9 +4,8 @@
   <%= image_tag user.image.url, class:'h2-image'%>
 </figure>
 <div class="item">
-	<%= link_to user.fullname,  user_path(user.id), class:'title is-6 name-profile plus' %>
-	<h1 class="title is-6 name-profile"> followed by <a href="">The Spy</a></h1>
+	<h1 class="title is-6 name-profile"> <%= user.fullname %> <br> followed by <a href="">The Spy</a></h1>
 </div>
-<span class="item"> <%= link_to '<i class="fas fa-plus-circle"></i>'.html_safe,  new_user_follower_path(@user_show.id), class:'plus plus-1' %></span>
+<span class="item"> <i class=" plus plus-1 fas fa-plus-circle"></i> </span>
 </div>
 <% end %>
