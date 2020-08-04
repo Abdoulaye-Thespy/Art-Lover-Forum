@@ -18,7 +18,9 @@ RSpec.describe User, type: :model do
 
   describe 'associations' do
     it { should have_many(:hints).dependent(:destroy) }
+    # rubocop:disable Metrics/LineLength
     it { should have_many(:active_relationships).class_name('Follower').with_foreign_key('follower_id').dependent(:destroy) }
     it { should have_many(:passive_relationships).class_name('Follower').with_foreign_key('followed_id').dependent(:destroy) }
+    # rubocop:enable Metrics/LineLength
   end
 end
