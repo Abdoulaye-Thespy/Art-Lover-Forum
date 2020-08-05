@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'sessions#new'
   resources :users do
     resources :followers, only: %i[new create]
     resources :hints, only: %i[new create]
