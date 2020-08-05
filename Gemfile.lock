@@ -112,7 +112,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    paperclip (6.0.0)
+    paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
       mime-types
