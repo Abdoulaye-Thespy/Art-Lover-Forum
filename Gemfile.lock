@@ -254,13 +254,13 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
-  bulma-rails (~> 0.9.0)
+  bulma-rails
   byebug
   capybara (>= 2.15)
   font-awesome-rails
   jbuilder (~> 2.7)
   listen (~> 3.2)
-  paperclip (~> 6.0.0)
+  paperclip
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
@@ -279,3 +279,6 @@ DEPENDENCIES
 
 RUBY VERSION
    ruby 2.5.1p57
+
+BUNDLED WITH
+   2.1.4
