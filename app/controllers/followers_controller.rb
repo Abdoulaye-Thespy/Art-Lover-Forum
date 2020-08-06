@@ -9,4 +9,10 @@ class FollowersController < ApplicationController
   end
 end
    def create; end
+
+   private
+
+  def fol_params
+    params.require(:user).permit(:user_id)
+  end
 end
