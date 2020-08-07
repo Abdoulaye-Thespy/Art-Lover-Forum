@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: %i[show edit update destroy]
 
-
   def index
     @users = User.where.not(id: [[current_user] + current_user.following]).order('created_at DESC')
     @hint = current_user.hints.build
@@ -20,7 +19,6 @@ class UsersController < ApplicationController
 
   def edit; end
 
-
   def create
     @user = User.new(user_params)
     respond_to do |format|
@@ -33,8 +31,6 @@ class UsersController < ApplicationController
       end
     end
   end
-
-
 
   private
 
