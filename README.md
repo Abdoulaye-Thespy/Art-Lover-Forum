@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Click for the Live demo](https://quiet-meadow-07221.herokuapp.com/)
+[Click for the Live demo](https://powerful-atoll-45970.herokuapp.com/)
 
 
 ## Getting Started

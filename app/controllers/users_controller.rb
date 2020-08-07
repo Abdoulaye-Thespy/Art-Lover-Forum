@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   def show
     @user_show = set_user
     @users = @user_show.followers
-    @hints = @user_show.show_hints.order('created_at DESC')
+    @hints = @user_show.show_hints.order('created_at DESC').includes(:users)
   end
 
   def new
