@@ -6,7 +6,7 @@ class FollowersController < ApplicationController
     else
       redirect_to users_path, notice: 'cannot follow this user'
     end
-end
+  end
 
   def create; end
 
