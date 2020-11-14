@@ -1,0 +1,41 @@
+<body>
+<div class="columns line1">
+   <div class="column line1-1">
+      <p class="fol"> <%= current_user.following.count %> </p>
+      <p class="fol_num"> Following</p>
+   </div>
+   <div class="column">
+      <p class="fol"> <%= current_user.followers.count %></p>
+      <p class="fol_num"> Followers</p>
+   </div>
+</div>
+ 
+<div class="line2">
+ <span><i class="fas fa-home"></i>
+ <%= link_to 'HOME',  users_path, class: 'has-text-white-ter title is-6'%> 
+ </span>
+</div>
+<div class="lines">
+ <span><i class="fas fa-home"></i></span>CONNECT	
+</div>
+
+<div class="lines">
+ <span><i class="fas fa-home"></i></span>DISCOVER	
+</div>
+
+<div class="lines">
+ <span><i class="fas fa-home"></i></span>
+ <% if logged_in? %>
+ <%= link_to 'PROFILE',  user_path(current_user.id), class: 'has-text-white-ter title is-6'%> 
+ <% end %>
+</div>
+
+<div class="lines">
+ <span><i class="fas fa-home"></i></span>
+ <% if logged_in? %>
+ <%= link_to 'Logout',  session_path(current_user.id),class: 'has-text-white-ter title is-6', method: :delete%> 
+ <% end %>
+
+</div>
+
+</body>

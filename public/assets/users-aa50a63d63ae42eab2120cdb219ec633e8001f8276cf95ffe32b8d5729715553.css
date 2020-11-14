@@ -1,0 +1,36 @@
+html,
+body { height: 100%; margin: 0; }
+.line1 { color: #fff; width: 60%; }
+.line1-1 { margin-left: 1rem; }
+.line2 { background-color: #0099e6; height: 4rem; color: white; margin-right: -0.73rem; padding-top: 1.2rem; }
+.lines { margin: 1rem; color: white; }
+.line2 span { margin-left: 1rem; }
+.first_part1 { background-color: #003; }
+.part3,
+.part2 { background-color: #e6e6e6; margin: 0; padding: 0; }
+.part2 { border-right: 1px solid #bfbfbf; height: 100%; }
+.part3-1 { border-bottom: 1px solid #bfbfbf; padding: 1rem; }
+.part3-2 { border-bottom: 1px solid #bfbfbf; padding: 0.6rem; }
+.hint_area { background-color: #fff; padding: 1rem; margin: 2rem; border-radius: 5px; line-height: 50px; }
+.hints-areas { background-color: #fff; padding: 0.2rem; margin: 2px 2rem 2px 2rem; border-radius: 5px; }
+.p-image { width: 60px; height: 50px; object-fit: cover; }
+.sep { margin: 0 2rem 0 2rem; background-color: #fff; padding: 1rem 0 1rem 1rem; }
+.c-image { width: 100%; height: 450px; object-fit: cover; margin: auto; }
+.flex-container { display: flex; }
+.item { margin: 0.2rem; }
+.h-image { border-radius: 50%; width: 90px; height: 90px; object-fit: cover; }
+.add i { font-size: 50px; margin: 1.6rem 0 0 1.6rem; }
+.menu i { font-size: 45px; margin: 1.6rem 6rem 0 0; }
+.fig { text-align: center; }
+.fig .paraph-1 { font-size: 20px; font-weight: bold; }
+.fig .paraph-2 { font-size: 15px; font-weight: bold; }
+.plus { color: #737373; }
+.plus:hover { background-color: #e6e6e6; }
+.h2-image { border-radius: 50%; width: 60px; height: 60px; }
+.name-profile { padding: 0.4rem; }
+.follow p { padding-left: 1rem; font-size: 20px; font-weight: bold; text-align: center; margin-top: 1rem; }
+.follow-div { border: 1px solid #bfbfbf; }
+.fol_by { padding: 1rem; opacity: 0.5; border-bottom: 1px solid #bfbfbf; }
+.plus-1 { font-size: 30px; }
+.fol { color: #fff; font-size: 20px; text-align: center; }
+.fol_num { color: #bfbfbf; font-size: 15px; text-align: center; }

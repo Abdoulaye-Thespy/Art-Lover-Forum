@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <title>TwitterRedesign</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+<nav class="navbar columns" role="navigation" aria-label="main navigation">
+ <div class=" column first_part">
+  <% if logged_in? %>
+   <div class="columns is-centered">
+<figure class="column">
+ <%= image_tag current_user.image.url, class:'p-image'%>
+</figure>
+     <p class="column is-three-quarters uname"><%= current_user.fullname %></p>
+   </div>
+  <% end %>
+ </div>
+
+  <div class=" column is-three-fifths second_part">
+   <span><i class="fas fa-paint-brush"></i></span>
+ </div>
+
+<div class=" column third_part">
+  <span><i class="fas fa-pencil-alt"></i></span>
+  <span><i class="fas fa-envelope"></i></i></span>
+  <span><i class="fas fa-search"></i></span>
+  <span><i class="fas fa-cog"></i></span>
+</div>
+</nav>
+
+
+    <%= yield %>
+
+    
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>ART HINT</strong> by <a href="https://jgthms.com">ABDOULAYE THE SPY</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CMR</a>.
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

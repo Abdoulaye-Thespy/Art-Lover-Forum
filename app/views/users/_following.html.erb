@@ -1,0 +1,11 @@
+<% @users.each do |user| %>
+<div class="flex-container">
+<figure class="item">
+  <%= image_tag user.image.url, class:'h2-image'%>
+</figure>
+<div class="item">
+	<h1 class="title is-6 name-profile"> <%= user.fullname %> <br> followed by <a href="">The Spy</a></h1>
+</div>
+<span class="item"> <i class=" plus plus-1 fas fa-plus-circle"></i> </span>
+</div>
+<% end %>

@@ -1,0 +1,31 @@
+<body>
+   <div class="columns">
+      <div class=" column first_part1">
+         <%= render 'menu' %>
+      </div>
+      <div class=" column is-three-fifths part2">
+         <div class="part3-1">
+            HINTS (ART)
+         </div>
+         <div class="hint_area">
+            <p id="notice"><%= notice %></p>
+            <h1>WRITE A HINTS ABOUT A PIECE OR ART</h1>
+            <%= form_for(current_user.hints.new, url: user_hints_path(current_user.id)) do |form| %>
+            <div> <%= form.text_field :text, id: :comment_content, class: 'input', placeholder: 'Hint' %> </div>
+            <%= form.submit 'Create and hint', class: 'button is-link' %>
+            <% end %>
+        </div>
+         <h1 class="sep" >4 NEW HINTS</h1>
+         <%= render 'hints'%>
+      </div>
+
+      <div class=" column part3">
+         <div class="columns part3-2">
+            <span class="column is-three-fifths">WHO TO FOLLOW</span>
+            <span class="column"><i class="fas fa-expand-arrows-alt"></i></span>
+         </div>
+
+         <%= render 'profile' %>
+      </div>
+   </div>
+</body>

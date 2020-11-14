@@ -1,0 +1,24 @@
+   <main>
+
+  <%= form_for @user do |f| %>
+
+  <div>
+  <%= label_tag(:username, "Enter Your Username:") %>
+   <%= f.text_field :username,   class:"input is-info", placeholder:"UserName" %>
+    
+  </div>
+  <div>
+    <%= label_tag(:fullname, "Enter Your fullname:") %>
+    <%= f.text_field :fullname, class:"input is-info", placeholder:"fullname" %>
+    <%= label_tag(:image, "Upload profil Image:") %>
+    <%=f.file_field :image %> <br>
+    <%= label_tag(:image, "Upload Cover Image:") %>
+    <%=f.file_field :coverimage %>
+
+  </div>
+
+
+   <p> <%= f.submit "Create Your Account", class:"button is-primary" %></p>
+   
+  <% end %>
+  </main>
